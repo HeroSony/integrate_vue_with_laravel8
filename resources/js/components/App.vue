@@ -1,10 +1,12 @@
 <template>
-  <div>
-    Hello world
-  </div>
+    <div>{{ title }}</div>
 </template>
 <script>
 export default {
-  name: 'App'
+    data() {
+        return {
+            title: "Laravel & Vue Js",
+        };
+    },
 };
 </script>
